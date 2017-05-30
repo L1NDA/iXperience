@@ -1,0 +1,261 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.heading {
+  background-image: url("josefa-holland-merten-3739.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  background-color: #888c9b;
+  width: 100%;
+  height: 15px;
+}
+
+.title {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 120px;
+  color: #888c9b;
+}
+
+.title-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.title-heading {
+  margin: 0;
+}
+
+.heading, .social-icons-three {
+  display: flex;
+}
+
+.social-icon {
+  opacity: 1;
+  background-color: #888c9b;
+  color: white;
+  margin: 0 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.social-icon:hover {
+  opacity: .7;
+  background-color: white !important;
+  color: black !important;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons {
+  background-color: white;
+  height: 250px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0 150px;
+}
+
+.social-icon-three {
+  background-color:  #888c9b;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0; /*to make elements same size*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-text-title {
+  margin: 10px 0 0 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+.video-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+
+.three-text-text {
+  margin: 10px 0 0 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #4f4f4f;
+  font-size: 18px;
+}
+
+.video-text {
+  color: #4f4f4f;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#icons2 {
+  background-color: #e1e1e8;
+  height: 300px;
+  padding: 0 200px;
+}
+
+.icons-items {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text {
+  text-align: center;
+}
+
+#video {
+  justify-content: flex-end;
+}
+
+.contact {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.contact-words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  flex-shrink: 0;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  margin: 2px;
+}
+
+.social-icon-2 {
+  margin: 0 10px 20px 10px;
+  background-color: #888c9b;
+  color: white;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.social-icon:hover {
+  background-color: #888c9b;
+  color: white;
+}
+
+.social-icons-2 {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #e1e1e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #888c9b;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: white;
+}
+
+.btn {
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 0 14px 14px 0;
+  border: none;
+  font-family: 'Pacifico', cursive;
+  font-size: 16px;
+  color: white;
+  background: #888c9b;
+  padding: 11px 26px 13px 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+  text-decoration: none;
+  color: gray;
+}
+
+input[type=email] {
+  padding: 11px 22px 13px 26px;
+  border-radius: 14px 0 0 14px;
+  border: none;
+  color: lightgray;
+  background: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+i {
+  text-align: center;
+}
+
+#contact-title {
+  margin-bottom: 10px;
+}
